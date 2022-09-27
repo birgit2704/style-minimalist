@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/c19b1248cc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="pages">
     <div id="generalContainer">
 
         <!-- ======= Header ======= -->
@@ -35,9 +35,62 @@
         <!-- End Header -->
         <!-- Main Part -->
         <div class="flex-container">
-            <div class="left-side">1</div>
-            <div class="right-side">2</div>
+          <div id="left-side-contact">
+            <div class="container-contact">
+              <form>
+            
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="germany">Germany</option>
+                  <option value="austria">Austria</option>
+                  <option value="switzerland">Switzerland</option>
+                </select>
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
+            </div> 
           </div>
+          <div id="right-side-contact">
+            <div class="containr">
+              <img src="imgs/icons8-avatar-64.png" alt="Avatar" style="height:auto">
+              <p><span>Melinda Weber</span> Executive Assistant</p>
+              <p>Finally I have found a style that suits me. Thank you!</p>
+            </div>
+
+            <div class="containr">
+              <img src="imgs/icons8-avatar-64(3).png" alt="Avatar" style="height: auto;">
+              <p><span>Daniel Schneider</span> CEO at Lindowat</p>
+              <p>The style advise you gave me have made my life so much easier!</p>
+            </div>
+
+            <div class="containr">
+              <img src="imgs/icons8-avatar-64(1).png" alt="Avatar" style="height: auto;">
+              <p><span>Annette Singer</span> Middle School Teacher</p>
+              <p>I gained so much confidence knowing what to wear.</p>
+            </div>
+
+            <!-- <div class="containr">
+              <img src="avatar_g2.jpg" alt="Avatar" style="width:90px">
+              <p><span >Rebecca Flex.</span> CEO at Company.</p>
+              <p>No one is better than John Doe.</p>
+            </div>  -->
+          </div>
+        </div>
+      <!-- End of Main Part -->
+
+
+
+
         <!-- End of Main Part -->
 
     </div>
