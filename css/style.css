@@ -401,11 +401,13 @@ body {
   
   /* Main Part (Content Page) */
   .flex-container {
-    position: absolute;
-    bottom: 10%;
+    /* position: absolute; */
+    width: 80vw;
+    margin: 12vh auto;
+    /* bottom: 10%;
     top: 15%;
     left: 15%;
-    right: 15%;
+    right: 15%; */
     display: flex;
     justify-content:flex-start;
     align-items:center;
@@ -585,10 +587,11 @@ img{
     
   }
   .flex-container {
-    bottom: 10%;
+    /* bottom: 10%;
     top: 10%;
     left: 15%;
-    right: 15%;
+    right: 15%; */
+    margin: 1vh auto;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -598,6 +601,7 @@ img{
 
   .ac-container label {
     font-size: 20px;
+    font-weight: bold;
   }
   .ac-container article p {
     font: normal normal 17px 'Open Sans';
