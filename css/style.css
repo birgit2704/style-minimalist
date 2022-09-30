@@ -40,7 +40,7 @@ body {
   
   p {
     padding: 0;
-    margin: 0 0 30px 0;
+    margin: 0 0 0 0;
   }
   
   h1,
@@ -402,7 +402,7 @@ body {
   /* Main Part (Content Page) */
   .flex-container {
     /* position: absolute; */
-    width: 80vw;
+    width: 75vw;
     margin: 12vh auto;
     /* bottom: 10%;
     top: 15%;
@@ -677,6 +677,20 @@ img{
   /* End of Main Part Content Page*/
 
 /* Main part Contact Page */
+.flex-container2 {
+  /* position: absolute; */
+  width: 75vw;
+  margin: 6vh auto;
+  /* bottom: 10%;
+  top: 15%;
+  left: 15%;
+  right: 15%; */
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  flex-direction:row;
+  text-align: center;
+}
 #left-side-contact {
   width: 55%;
   background-color:#e5e1e1;
@@ -743,10 +757,10 @@ input[type=submit]:hover {
   margin: 20px 0;
   color:#3D2A05;
   text-align: left;
-  height: 14vh;
+  height:min-content;
   float: left;
   display: block;
-  width: 30vw;
+  width: 32vw;
 }
 
 /* Clear floats after containers */
@@ -769,17 +783,45 @@ input[type=submit]:hover {
   margin-right: 15px;
 }
 
+@media only screen and (max-width: 991px){
+  .flex-container2{
+    margin: 1vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #left-side-contact{
+    width: 100%;
+  }
+
+  #right-side-contact{
+    width:100%
+  }
+
+  .containr {
+    width: 100%;
+    /* font-size: 18px; */
+  }
+}
 /* Add media queries for responsiveness. This will center both the text and the image inside the container */
-/* @media (max-width: 500px) {
+@media (max-width: 600px) {
+.flex-container2{
+  width: 85%;
+}
+
   .containr {
     text-align: center;
-  } */
+  }
 
-  /* .containr img {
+  .containr img {
     margin: auto;
     float: none;
     display: block;
-  } */
+  }
+}
 
   /* End of Main Part Contact Page */
 
