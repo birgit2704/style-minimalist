@@ -229,7 +229,7 @@ body {
 --------------------------------------------------------------*/
 #hero {
     width: 100vw;
-    height: 90vh;
+    height: 70vh;
     background: url(../imgs/landing.jpg) top center;
     background-size:contain;
     background-repeat: no-repeat;
@@ -246,7 +246,7 @@ body {
     content: "";
     background: rgba(0, 0, 0, 0.2);
     position: absolute;
-    bottom: 75px;
+    bottom: 0px;
     top: 0;
     left: 0;
     right: 0;
