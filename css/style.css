@@ -76,7 +76,7 @@ body {
 
   .header2 {
     padding: 10px 16px;
-    background:#503808;
+    /* background:#503808; */
     color: #f1f1f1;
     z-index: 997;
     }
