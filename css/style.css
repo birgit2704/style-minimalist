@@ -376,6 +376,12 @@ body {
   }
 
   @media only screen and (max-width: 600px){
+
+    #hero {
+      width: 100vw;
+      height: 70vh;
+    }
+
     #hero .hero-container {
       position: absolute;
       bottom: 25%;
@@ -403,7 +409,7 @@ body {
   /* Main Part (Content Page) */
   .flex-container {
     /* position: absolute; */
-    width: 75vw;
+    width: 70vw;
     margin: 12vh auto;
     /* bottom: 10%;
     top: 15%;

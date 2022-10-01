@@ -12,4 +12,3 @@ function myFunction() {
     header.style.background="transparent";
   }
 }
-
