@@ -19,12 +19,6 @@ body {
   height: calculate(100vh-75px);
 }
 
-/* #generalContainer:after {
-  content: "";
-  display: block;
-  height: 75px;
-} */
-
 a {
   text-decoration: none;
 }
@@ -57,14 +51,6 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-/* .header1, 
-.header2{
-    height: 7%;
-    margin-top: 1.5%;
-    transition: all 0.5s;
-    z-index: 997;
-    background: rgba(52, 59, 64, 0.9);
-  } */
 
 .header1 {
   padding: 10px 16px;
@@ -75,7 +61,6 @@ h6 {
 
 .header2 {
   padding: 10px 16px;
-  /* background:#503808; */
   color: #f1f1f1;
   z-index: 997;
 }
@@ -112,40 +97,10 @@ h6 {
   color: rgb(196, 193, 193);
 }
 
-/* #header #logo img {
-    padding: 0;
-    margin: 0;
-  }
-   */
-
-/* .header1,
-   .header2 {
-    background: black;
-  }
-  @media only screen and (max-width: 991px){
-  .header2 {
-    background:#412d04;
-    }
-  } */
-
-/* #header.header-scrolled {
-    background-color: #503808;
-  } */
-/* #header.header-scrolled {
-    background: rgba(52, 59, 64, 0.9);
-    height: 70px;
-    transition: all 0.5s;
-  }
-  
-  .scrolled-offset {
-    margin-top: 70px;
-  }   */
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+
 .navbar {
   padding: 0;
 }
@@ -274,14 +229,11 @@ h6 {
   opacity: 0;
   transition: opacity 6s;
 }
-/* #hero h1:hover{
-    color:  rgb(196, 193, 193);
-  } */
+
 #hero-p {
   font-size: 3rem;
   margin: 0px 0 3% 0;
   font-weight: bold;
-  /* text-transform: none; */
   color: rgb(248, 238, 165);
   opacity: 0;
   transition: opacity 2s;
@@ -305,27 +257,6 @@ h6 {
       0 0 50px #ad925a, 0 0 60px #ad925a, 0 0 70px #ad925a, 0 0 80px #ad925a;
   }
 }
-
-/* @media (max-width: 768px) {
-    #hero h1 {
-      font-size: 28px;
-      line-height: 36px; */
-/* }
-  }
-   */
-/* #hero h2 {
-    color: #eee;
-    margin-bottom: 50px;
-    font-size: 24px;
-  }
-  
-  @media (max-width: 768px) {
-    #hero h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
-    }
-  } */
 
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
@@ -358,21 +289,18 @@ h6 {
   }
   #hero h1 {
     margin: 200px 0 10px 0;
-    /* margin: 20% 0 0 10%; */
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 56px;
   }
   #hero-p {
     font-size: 2.5rem;
-    /* margin: 0% 0 0 10%; */
     margin: 0;
     font-weight: bold;
   }
   #hero .btn-get-started {
     font-size: 14px;
     margin-top: 3%;
-    /* margin-top: 1vh; */
   }
 }
 
@@ -408,15 +336,11 @@ h6 {
 
 /* Main Part (Content Page) */
 .flex-container {
-  /* position: absolute; */
   width: 80vw;
   margin: 12vh auto;
   padding-top: 50px;
   height: 100%;
-  /* bottom: 10%;
-  top: 15%;
-  left: 15%;
-  right: 15%; */
+
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -440,7 +364,6 @@ h6 {
   font-size: 30px;
 }
 /* Accordion */
-/*Acco*/
 .ac-container {
   max-width: 100%;
 }
@@ -458,8 +381,6 @@ h6 {
   cursor: pointer;
   color: #777;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
-  /* line-height: 33px;
-  font-size: 19px; */
   background: #e5e1e1;
   background: -moz-linear-gradient(top, #e5e1e1 1%, #eaeaea 100%);
   background: -webkit-gradient(
@@ -476,9 +397,6 @@ h6 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff',endColorstr='#eaeaea',GradientType=0 );
   box-shadow: 0 0 0 1px rgba(155, 155, 155, 0.3),
     1px 0 0 rgba(255, 255, 255, 0.9) inset, 0 2px 2px rgba(0, 0, 0, 0.1);
-  /* font-size: 2.5em; */
-  /* height: 30px;
-  line-height: 20px; */
 }
 
 .ac-container {
@@ -497,25 +415,8 @@ h6 {
   color: #666;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.6);
   box-shadow: 0 0 0 1px rgba(155, 155, 155, 0.3), 0 2px 2px rgba(0, 0, 0, 0.1);
-  /* height: 30px;
-  line-height: 21px;
-  font-size: 13px; */
 }
 
-/* .ac-container label:hover:after,.ac-container input:checked + label:hover:after {
-  content: '';
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  right: 13px;
-  top: 7px;
-  background: transparent url(../images/arrow_down.png) no-repeat center center;
-}
-
-.ac-container input:checked + label:hover:after {
-  background-image: url(../images/arrow_up.png);
-}
-*/
 .ac-container input {
   display: none;
 }
@@ -597,10 +498,6 @@ img {
     font-size: 30px;
   }
   .flex-container {
-    /* bottom: 10%;
-    top: 10%;
-    left: 15%;
-    right: 15%; */
     margin: 1vh auto;
     display: flex;
     justify-content: center;
@@ -640,10 +537,6 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
-  /* .flex-container {
-    /* top: 15%; */
-
-  /* } */
   */ #left-side {
     margin-top: 0;
     margin-bottom: 20px;
@@ -680,17 +573,10 @@ img {
   }
 }
 
-/* End of Main Part Content Page*/
-
 /* Main part Contact Page */
 .flex-container2 {
-  /* position: absolute; */
   width: 75vw;
   margin: 6vh auto;
-  /* bottom: 10%;
-  top: 15%;
-  left: 15%;
-  right: 15%; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -706,21 +592,21 @@ img {
   color: #3d2a05;
 }
 /* Style inputs with type="text", select elements and textareas */
-input[type="text"],
+input[type="text"], [type="email"],
+/* input[type="email"], */
 select,
 textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
   background-color: #eeeeee;
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
 input[type="submit"] {
   background-color: #503808;
   color: white;
@@ -730,13 +616,11 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
   background-color: #dfc9a0;
   color: black;
 }
 
-/* Add a background color and some padding around the form */
 .container-contact {
   border-radius: 5px;
   background-color: #e5e1e1;
@@ -748,14 +632,10 @@ input[type="submit"]:hover {
 
 #right-side-contact {
   width: 45%;
-  /* background-color:#e5e1e1; */
   margin: 10px;
   margin-left: 20px;
-  /* padding: 20px;
-  font-size: 30px; */
 }
 
-/* Style the container with a rounded border, grey background and some padding and margin */
 .containr {
   border: 2px solid #ccc;
   background-color: #e5e1e1;
@@ -770,21 +650,18 @@ input[type="submit"]:hover {
   width: 32vw;
 }
 
-/* Clear floats after containers */
 .containr::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
 .containr img {
   float: left;
   margin-right: 10px;
   border-radius: 50%;
 }
 
-/* Increase the font-size of a span element */
 .containr span {
   font-size: 20px;
   margin-right: 15px;
@@ -810,10 +687,9 @@ input[type="submit"]:hover {
 
   .containr {
     width: 100%;
-    /* font-size: 18px; */
   }
 }
-/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+
 @media (max-width: 600px) {
   .flex-container2 {
     width: 85%;
@@ -830,31 +706,6 @@ input[type="submit"]:hover {
   }
 }
 
-/* End of Main Part Contact Page */
-
-/*--------------------------------------------------------------
-  # Sections
-  --------------------------------------------------------------*/
-/* section {
-    overflow: hidden;
-  } */
-
-/* Sections Header
-  --------------------------------*/
-/* .section-header .section-title {
-    font-size: 32px;
-    color: #111;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 5px;
-  }
-  
-  .section-header .section-description {
-    text-align: center;
-    padding-bottom: 40px;
-    color: #999;
-  } */
 /* footer */
 footer {
   height: 75px;
